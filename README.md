@@ -77,3 +77,8 @@ ref: https://nvlpubs.nist.gov/nistpubs/jres/74c/jresv74cn3-4p117_a1b.pdf
 ![image](https://user-images.githubusercontent.com/50457791/106360041-b8499000-6359-11eb-9156-936b2d0a5fa3.png)  
 quantile마다 다른 스케일로 의도한대로 값을 예측할 수 있었습니다.  
 public: 1.80359   private: 2.01757 를 기록하며 private 기준 9위를 달성했습니다.
+
+---
+## Author
+- 박지홍 (qkrwlghddlek@gmail.com)
+- [정성헌](https://github.com/EavnJung) (jshoney15@gmail.com)
