@@ -45,16 +45,22 @@ EDA와 레퍼런스를 통해 다음의 추가적인 피쳐를 생성했습니�
 해당 주차에서 발전할것으로 기대되는 최대 발전량에 못미친 정도를 나타냅니다.
 - GHI  
 ref: https://doi.org/10.8080/1020150067066  
+수평면 전일사량(GHI)는 DHI와 DNI과 천정각을 통해 추출된 일사량 누락 데이터입니다.
 
-
-- RDHNI  
+- RDHNI 
+DHI와 DNI의 덧셈의 제곱근으로 TARGET의 값을 잘 표현합니다.
 
 - Lower_Cloud, Middle_Cloud  
 ref: http://koreascience.or.kr/article/JAKO201303840303693.page  
+운량은 DHI와 DNI에 직접적인 영향을 주는 지표입니다. 
+본 지표의 중층운량과 하층운량은 AFWA는 미국 대기과학연구소(NCAR)에서
+개발한 중규모수치모델인 MM5(methodbuiltinthefifth-generationMesoscaleModel)의
+후처리 패키지 중 하나인 그래픽소프트웨어Grads에서 구현된 알고리즘으로 산출하였다.
 
 - DD  
 ref: https://nvlpubs.nist.gov/nistpubs/jres/74c/jresv74cn3-4p117_a1b.pdf  
-
+기상학에서 자주 사용되는 지표로 공기가 포화되어 수증기가 응결할 때의 온도를 말합니다.
+이는 기상의 상태를 표현하는 지표로 사용할 수 있습니다.
 
 
 ## PreProcess  
