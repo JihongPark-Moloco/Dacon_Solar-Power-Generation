@@ -47,7 +47,7 @@ EDA와 레퍼런스를 통해 다음의 추가적인 피쳐를 생성했습니�
 ref: https://doi.org/10.8080/1020150067066  
 수평면 전일사량(GHI)는 DHI와 DNI과 천정각을 통해 추출된 일사량 누락 데이터입니다.
 
-- RDHNI 
+- RDHNI   
 DHI와 DNI의 덧셈의 제곱근으로 TARGET의 값을 잘 표현합니다.
 
 - Lower_Cloud, Middle_Cloud  
@@ -70,7 +70,7 @@ ref: https://nvlpubs.nist.gov/nistpubs/jres/74c/jresv74cn3-4p117_a1b.pdf
 |---|---|---|
 |Model 1|year_1, year_2|year_3|
 |Model 2|year_1, year_3|year_2|
-|Model 3|year_2, year_2|year_1|
+|Model 3|year_2, year_3|year_1|
 
 
 ## Model  
